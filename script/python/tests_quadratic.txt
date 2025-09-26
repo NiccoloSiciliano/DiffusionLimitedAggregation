@@ -1,0 +1,420 @@
+Particle 640 80 100:
+./sequential/main_quadratic.o: 0.29450119999999996
+./pthread/main_quadratic.o 2: 0.17360930000000002
+./pthread/main_quadratic.o 4: 0.1594638
+./pthread/main_quadratic.o 8: 0.1312731
+./pthread/main_quadratic.o 16: 0.1669584
+./omp/main_quadratic_parallel.o 2: 0.1739849
+./omp/main_quadratic_parallel.o 4: 0.12068890000000003
+./omp/main_quadratic_parallel.o 8: 0.1522826
+./omp/main_quadratic_parallel.o 16: 0.1534777
+./omp/main_quadratic_nested.o 2: 0.9574696999999999
+./omp/main_quadratic_nested.o 4: 0.6717547
+./omp/main_quadratic_nested.o 8: 4.647403
+./omp/main_quadratic_nested.o 16: 3.2864740999999995
+Particle 1280 80 100:
+./sequential/main_quadratic.o: 1.2574606000000002
+./pthread/main_quadratic.o 2: 0.6855186000000001
+./pthread/main_quadratic.o 4: 0.46321540000000005
+./pthread/main_quadratic.o 8: 0.4746543999999999
+./pthread/main_quadratic.o 16: 0.5398455
+./omp/main_quadratic_parallel.o 2: 0.736534
+./omp/main_quadratic_parallel.o 4: 0.4910477999999999
+./omp/main_quadratic_parallel.o 8: 0.5081087
+./omp/main_quadratic_parallel.o 16: 0.5621782000000001
+./omp/main_quadratic_nested.o 2: 2.3437566000000003
+./omp/main_quadratic_nested.o 4: 1.6351308
+./omp/main_quadratic_nested.o 8: 12.6771393
+./omp/main_quadratic_nested.o 16: 7.138921399999999
+Particle 1920 80 100:
+./sequential/main_quadratic.o: 2.7410652
+./pthread/main_quadratic.o 2: 1.5540156
+./pthread/main_quadratic.o 4: 1.1135889
+./pthread/main_quadratic.o 8: 1.1604177
+./pthread/main_quadratic.o 16: 1.188726
+./omp/main_quadratic_parallel.o 2: 1.6328321
+./omp/main_quadratic_parallel.o 4: 1.1024227999999998
+./omp/main_quadratic_parallel.o 8: 1.1458949999999999
+./omp/main_quadratic_parallel.o 16: 1.2045574000000001
+./omp/main_quadratic_nested.o 2: 4.041007100000001
+./omp/main_quadratic_nested.o 4: 2.8582602
+./omp/main_quadratic_nested.o 8: 19.414728500000002
+./omp/main_quadratic_nested.o 16: 10.650743000000002
+Particle 2560 80 100:
+./sequential/main_quadratic.o: 5.1747185
+./pthread/main_quadratic.o 2: 2.7655029
+./pthread/main_quadratic.o 4: 1.9696970999999999
+./pthread/main_quadratic.o 8: 2.0693007999999997
+./pthread/main_quadratic.o 16: 2.1079193
+./omp/main_quadratic_parallel.o 2: 2.9323926
+./omp/main_quadratic_parallel.o 4: 1.9957967
+./omp/main_quadratic_parallel.o 8: 2.0487262
+./omp/main_quadratic_parallel.o 16: 2.1107684
+./omp/main_quadratic_nested.o 2: 6.1008678
+./omp/main_quadratic_nested.o 4: 4.3215485000000005
+./omp/main_quadratic_nested.o 8: 26.5466719
+./omp/main_quadratic_nested.o 16: 14.6446359
+Particle 3200 80 100:
+./sequential/main_quadratic.o: 7.768731
+./pthread/main_quadratic.o 2: 4.5114298
+./pthread/main_quadratic.o 4: 3.0717765
+./pthread/main_quadratic.o 8: 3.250282
+./pthread/main_quadratic.o 16: 3.3489381000000003
+./omp/main_quadratic_parallel.o 2: 4.5774211000000005
+./omp/main_quadratic_parallel.o 4: 3.1046733000000004
+./omp/main_quadratic_parallel.o 8: 3.2299853000000005
+./omp/main_quadratic_parallel.o 16: 3.3280397000000006
+./omp/main_quadratic_nested.o 2: 8.577425199999999
+./omp/main_quadratic_nested.o 4: 6.0512315
+./omp/main_quadratic_nested.o 8: 33.615868600000006
+./omp/main_quadratic_nested.o 16: 19.049642799999997
+Particle 3840 80 100:
+./sequential/main_quadratic.o: 10.3094152
+./pthread/main_quadratic.o 2: 5.735827599999999
+./pthread/main_quadratic.o 4: 4.1152964
+./pthread/main_quadratic.o 8: 4.2796345
+./pthread/main_quadratic.o 16: 4.2730331
+./omp/main_quadratic_parallel.o 2: 5.9531873
+./omp/main_quadratic_parallel.o 4: 4.220704899999999
+./omp/main_quadratic_parallel.o 8: 4.3186185
+./omp/main_quadratic_parallel.o 16: 4.2407279
+./omp/main_quadratic_nested.o 2: 10.0667575
+./omp/main_quadratic_nested.o 4: 7.2028844
+./omp/main_quadratic_nested.o 8: 36.5532987
+./omp/main_quadratic_nested.o 16: 20.622132
+Particle 4480 80 100:
+./sequential/main_quadratic.o: 12.138844700000002
+./pthread/main_quadratic.o 2: 6.7341431
+./pthread/main_quadratic.o 4: 5.0040566
+./pthread/main_quadratic.o 8: 5.041170800000001
+./pthread/main_quadratic.o 16: 5.0433199
+./omp/main_quadratic_parallel.o 2: 7.0613087
+./omp/main_quadratic_parallel.o 4: 5.1599123
+./omp/main_quadratic_parallel.o 8: 5.1722766
+./omp/main_quadratic_parallel.o 16: 4.9831465999999995
+./omp/main_quadratic_nested.o 2: 11.0425788
+./omp/main_quadratic_nested.o 4: 7.954321200000001
+./omp/main_quadratic_nested.o 8: 37.8727412
+./omp/main_quadratic_nested.o 16: 21.1994875
+Particle 5120 80 100:
+./sequential/main_quadratic.o: 15.259833899999999
+./pthread/main_quadratic.o 2: 9.01766
+./pthread/main_quadratic.o 4: 6.454220099999999
+./pthread/main_quadratic.o 8: 6.6553805
+./pthread/main_quadratic.o 16: 6.5410661
+./omp/main_quadratic_parallel.o 2: 9.190380900000001
+./omp/main_quadratic_parallel.o 4: 6.5868229
+./omp/main_quadratic_parallel.o 8: 6.744785700000001
+./omp/main_quadratic_parallel.o 16: 6.4982601
+./omp/main_quadratic_nested.o 2: 13.7596249
+./omp/main_quadratic_nested.o 4: 9.8468145
+./omp/main_quadratic_nested.o 8: 45.114379400000004
+./omp/main_quadratic_nested.o 16: 25.085348899999996
+Particle 5760 80 100:
+./sequential/main_quadratic.o: 20.9551361
+./pthread/main_quadratic.o 2: 11.6562955
+./pthread/main_quadratic.o 4: 8.576751400000001
+./pthread/main_quadratic.o 8: 8.734418300000002
+./pthread/main_quadratic.o 16: 8.6544561
+./omp/main_quadratic_parallel.o 2: 11.874571399999999
+./omp/main_quadratic_parallel.o 4: 8.7204289
+./omp/main_quadratic_parallel.o 8: 8.8802223
+./omp/main_quadratic_parallel.o 16: 8.564718699999998
+./omp/main_quadratic_nested.o 2: 17.4846248
+./omp/main_quadratic_nested.o 4: 12.459102700000003
+./omp/main_quadratic_nested.o 8: 54.53553910000001
+./omp/main_quadratic_nested.o 16: 30.1592092
+Particle 6400 80 100:
+./sequential/main_quadratic.o: 25.4932702
+./pthread/main_quadratic.o 2: 15.114695399999999
+./pthread/main_quadratic.o 4: 10.876546900000003
+./pthread/main_quadratic.o 8: 11.0909803
+./pthread/main_quadratic.o 16: 11.070837899999999
+./omp/main_quadratic_parallel.o 2: 15.183947999999997
+./omp/main_quadratic_parallel.o 4: 11.038322299999999
+./omp/main_quadratic_parallel.o 8: 11.2473546
+./omp/main_quadratic_parallel.o 16: 11.0518426
+./omp/main_quadratic_nested.o 2: 21.728332599999998
+./omp/main_quadratic_nested.o 4: 15.2220713
+./omp/main_quadratic_nested.o 8: 65.1580957
+./omp/main_quadratic_nested.o 16: 35.749136199999995
+Grid 70 10 100 5 5:
+./sequential/main_quadratic.o: 0.0005916999999999999
+./pthread/main_quadratic.o 2: 0.0008664999999999999
+./pthread/main_quadratic.o 4: 0.0009008999999999999
+./pthread/main_quadratic.o 8: 0.0016787
+./pthread/main_quadratic.o 16: 0.0034419999999999997
+./omp/main_quadratic_parallel.o 2: 0.0005683
+./omp/main_quadratic_parallel.o 4: 0.0004665
+./omp/main_quadratic_parallel.o 8: 0.0005413999999999999
+./omp/main_quadratic_parallel.o 16: 0.007945099999999998
+./omp/main_quadratic_nested.o 2: 0.011107299999999999
+./omp/main_quadratic_nested.o 4: 0.0106881
+./omp/main_quadratic_nested.o 8: 0.10877350000000001
+./omp/main_quadratic_nested.o 16: 0.15384710000000001
+Grid 280 20 100 10 10:
+./sequential/main_quadratic.o: 0.0161258
+./pthread/main_quadratic.o 2: 0.010349500000000001
+./pthread/main_quadratic.o 4: 0.0085735
+./pthread/main_quadratic.o 8: 0.0087934
+./pthread/main_quadratic.o 16: 0.010874700000000001
+./omp/main_quadratic_parallel.o 2: 0.010220299999999998
+./omp/main_quadratic_parallel.o 4: 0.008355700000000002
+./omp/main_quadratic_parallel.o 8: 0.007961999999999999
+./omp/main_quadratic_parallel.o 16: 0.015435599999999999
+./omp/main_quadratic_nested.o 2: 0.09453990000000001
+./omp/main_quadratic_nested.o 4: 0.07245979999999999
+./omp/main_quadratic_nested.o 8: 0.4425834
+./omp/main_quadratic_nested.o 16: 0.5507915999999999
+Grid 630 30 100 15 15:
+./sequential/main_quadratic.o: 0.13434430000000003
+./pthread/main_quadratic.o 2: 0.0871343
+./pthread/main_quadratic.o 4: 0.06982760000000002
+./pthread/main_quadratic.o 8: 0.06651730000000002
+./pthread/main_quadratic.o 16: 0.0735297
+./omp/main_quadratic_parallel.o 2: 0.0865782
+./omp/main_quadratic_parallel.o 4: 0.0688446
+./omp/main_quadratic_parallel.o 8: 0.06747449999999999
+./omp/main_quadratic_parallel.o 16: 0.07428969999999999
+./omp/main_quadratic_nested.o 2: 0.4190829
+./omp/main_quadratic_nested.o 4: 0.31479399999999996
+./omp/main_quadratic_nested.o 8: 2.0466285999999996
+./omp/main_quadratic_nested.o 16: 1.6664123
+Grid 1120 40 100 20 20:
+./sequential/main_quadratic.o: 0.45863760000000003
+./pthread/main_quadratic.o 2: 0.27964920000000004
+./pthread/main_quadratic.o 4: 0.2250479
+./pthread/main_quadratic.o 8: 0.2203811
+./pthread/main_quadratic.o 16: 0.2194077
+./omp/main_quadratic_parallel.o 2: 0.29193860000000005
+./omp/main_quadratic_parallel.o 4: 0.2272316
+./omp/main_quadratic_parallel.o 8: 0.22781630000000003
+./omp/main_quadratic_parallel.o 16: 0.22893980000000003
+./omp/main_quadratic_nested.o 2: 0.8754785999999999
+./omp/main_quadratic_nested.o 4: 0.6440575
+./omp/main_quadratic_nested.o 8: 3.8364061
+./omp/main_quadratic_nested.o 16: 2.9977689999999995
+Grid 1750 50 100 25 25:
+./sequential/main_quadratic.o: 1.3344603000000002
+./pthread/main_quadratic.o 2: 0.7824094
+./pthread/main_quadratic.o 4: 0.6150874999999999
+./pthread/main_quadratic.o 8: 0.6360794999999999
+./pthread/main_quadratic.o 16: 0.6065225
+./omp/main_quadratic_parallel.o 2: 0.839887
+./omp/main_quadratic_parallel.o 4: 0.6386588000000001
+./omp/main_quadratic_parallel.o 8: 0.6492140999999999
+./omp/main_quadratic_parallel.o 16: 0.6207259
+./omp/main_quadratic_nested.o 2: 2.1361184000000004
+./omp/main_quadratic_nested.o 4: 1.5122257
+./omp/main_quadratic_nested.o 8: 10.4532103
+./omp/main_quadratic_nested.o 16: 5.7586736
+Grid 2520 60 100 30 30:
+./sequential/main_quadratic.o: 3.364527
+./pthread/main_quadratic.o 2: 2.0018081000000003
+./pthread/main_quadratic.o 4: 1.5282521999999998
+./pthread/main_quadratic.o 8: 1.5243885000000001
+./pthread/main_quadratic.o 16: 1.4882044
+./omp/main_quadratic_parallel.o 2: 2.0861986
+./omp/main_quadratic_parallel.o 4: 1.5739644000000002
+./omp/main_quadratic_parallel.o 8: 1.556137
+./omp/main_quadratic_parallel.o 16: 1.4971664999999998
+./omp/main_quadratic_nested.o 2: 4.2906789
+./omp/main_quadratic_nested.o 4: 3.1009521999999996
+./omp/main_quadratic_nested.o 8: 18.424525000000003
+./omp/main_quadratic_nested.o 16: 10.1630836
+Grid 3430 70 100 35 35:
+./sequential/main_quadratic.o: 6.888404100000001
+./pthread/main_quadratic.o 2: 3.8870411000000002
+./pthread/main_quadratic.o 4: 2.9328874
+./pthread/main_quadratic.o 8: 2.9801748000000003
+./pthread/main_quadratic.o 16: 2.9015655
+./omp/main_quadratic_parallel.o 2: 4.0997959
+./omp/main_quadratic_parallel.o 4: 3.0456452999999994
+./omp/main_quadratic_parallel.o 8: 3.0138742000000005
+./omp/main_quadratic_parallel.o 16: 2.8833585
+./omp/main_quadratic_nested.o 2: 7.102925000000001
+./omp/main_quadratic_nested.o 4: 5.1435389
+./omp/main_quadratic_nested.o 8: 27.1038346
+./omp/main_quadratic_nested.o 16: 15.134999499999997
+Grid 4480 80 100 40 40:
+./sequential/main_quadratic.o: 11.6690622
+./pthread/main_quadratic.o 2: 6.8727266
+./pthread/main_quadratic.o 4: 5.0330185
+./pthread/main_quadratic.o 8: 5.0994494
+./pthread/main_quadratic.o 16: 5.0461504
+./omp/main_quadratic_parallel.o 2: 7.0500199
+./omp/main_quadratic_parallel.o 4: 5.1699445
+./omp/main_quadratic_parallel.o 8: 5.220074
+./omp/main_quadratic_parallel.o 16: 4.9925403
+./omp/main_quadratic_nested.o 2: 11.095434399999998
+./omp/main_quadratic_nested.o 4: 7.9358295
+./omp/main_quadratic_nested.o 8: 38.49386
+./omp/main_quadratic_nested.o 16: 21.337125399999998
+Grid 5670 90 100 45 45:
+./sequential/main_quadratic.o: 20.1297149
+./pthread/main_quadratic.o 2: 11.715871900000002
+./pthread/main_quadratic.o 4: 8.4951738
+./pthread/main_quadratic.o 8: 8.630623199999999
+./pthread/main_quadratic.o 16: 8.6011657
+./omp/main_quadratic_parallel.o 2: 12.0984456
+./omp/main_quadratic_parallel.o 4: 8.713579699999999
+./omp/main_quadratic_parallel.o 8: 8.7643653
+./omp/main_quadratic_parallel.o 16: 8.5055631
+./omp/main_quadratic_nested.o 2: 17.4935783
+./omp/main_quadratic_nested.o 4: 12.457477299999999
+./omp/main_quadratic_nested.o 8: 55.5063717
+./omp/main_quadratic_nested.o 16: 30.4024059
+Grid 7000 100 100 50 50:
+./sequential/main_quadratic.o: 34.279758199999996
+./pthread/main_quadratic.o 2: 19.649009999999997
+./pthread/main_quadratic.o 4: 13.7049731
+./pthread/main_quadratic.o 8: 14.1906961
+./pthread/main_quadratic.o 16: 14.1295234
+./omp/main_quadratic_parallel.o 2: 19.801258699999998
+./omp/main_quadratic_parallel.o 4: 13.8610735
+./omp/main_quadratic_parallel.o 8: 14.3352384
+./omp/main_quadratic_parallel.o 16: 13.9805594
+./omp/main_quadratic_nested.o 2: 27.170938200000002
+./omp/main_quadratic_nested.o 4: 19.4686562
+./omp/main_quadratic_nested.o 8: 77.8251711
+./omp/main_quadratic_nested.o 16: 43.060527300000004
+Iteration 4480 80 20 40 40:
+./sequential/main_quadratic.o: 2.8846501
+./pthread/main_quadratic.o 2: 1.646347
+./pthread/main_quadratic.o 4: 1.0838522999999998
+./pthread/main_quadratic.o 8: 1.1544009
+./pthread/main_quadratic.o 16: 1.1893049999999998
+./omp/main_quadratic_parallel.o 2: 1.7535521999999997
+./omp/main_quadratic_parallel.o 4: 1.0828458
+./omp/main_quadratic_parallel.o 8: 1.1347322
+./omp/main_quadratic_parallel.o 16: 1.1593294000000003
+./omp/main_quadratic_nested.o 2: 2.5782633
+./omp/main_quadratic_nested.o 4: 1.8190839000000003
+./omp/main_quadratic_nested.o 8: 7.4313029
+./omp/main_quadratic_nested.o 16: 5.1061803999999995
+Iteration 4480 80 40 40 40:
+./sequential/main_quadratic.o: 6.0563434
+./pthread/main_quadratic.o 2: 3.1895725000000006
+./pthread/main_quadratic.o 4: 2.1233869000000003
+./pthread/main_quadratic.o 8: 2.2430358000000004
+./pthread/main_quadratic.o 16: 2.4649810000000003
+./omp/main_quadratic_parallel.o 2: 3.3917935
+./omp/main_quadratic_parallel.o 4: 2.1614198
+./omp/main_quadratic_parallel.o 8: 2.5005995000000003
+./omp/main_quadratic_parallel.o 16: 2.4319418
+./omp/main_quadratic_nested.o 2: 5.1334168
+./omp/main_quadratic_nested.o 4: 3.7817391000000002
+./omp/main_quadratic_nested.o 8: 16.1600274
+./omp/main_quadratic_nested.o 16: 10.4064548
+Iteration 4480 80 60 40 40:
+./sequential/main_quadratic.o: 8.2533002
+./pthread/main_quadratic.o 2: 4.5255947
+./pthread/main_quadratic.o 4: 3.0961169999999996
+./pthread/main_quadratic.o 8: 3.5307945000000003
+./pthread/main_quadratic.o 16: 3.5214859000000005
+./omp/main_quadratic_parallel.o 2: 4.731252899999999
+./omp/main_quadratic_parallel.o 4: 3.4504219
+./omp/main_quadratic_parallel.o 8: 3.5270598
+./omp/main_quadratic_parallel.o 16: 3.2864695
+./omp/main_quadratic_nested.o 2: 7.3818265
+./omp/main_quadratic_nested.o 4: 5.505085800000002
+./omp/main_quadratic_nested.o 8: 23.2918844
+./omp/main_quadratic_nested.o 16: 14.587928200000002
+Iteration 4480 80 80 40 40:
+./sequential/main_quadratic.o: 10.334993299999999
+./pthread/main_quadratic.o 2: 5.5896872
+./pthread/main_quadratic.o 4: 4.131848100000001
+./pthread/main_quadratic.o 8: 4.3692303
+./pthread/main_quadratic.o 16: 4.2841632
+./omp/main_quadratic_parallel.o 2: 5.8587141
+./omp/main_quadratic_parallel.o 4: 4.3435928
+./omp/main_quadratic_parallel.o 8: 4.417544
+./omp/main_quadratic_parallel.o 16: 4.3024559
+./omp/main_quadratic_nested.o 2: 9.1360309
+./omp/main_quadratic_nested.o 4: 6.566958700000001
+./omp/main_quadratic_nested.o 8: 28.8094604
+./omp/main_quadratic_nested.o 16: 18.029981499999998
+Iteration 4480 80 100 40 40:
+./sequential/main_quadratic.o: 11.594753099999998
+./pthread/main_quadratic.o 2: 6.388110299999999
+./pthread/main_quadratic.o 4: 4.8842903
+./pthread/main_quadratic.o 8: 5.0913822
+./pthread/main_quadratic.o 16: 4.8829422
+./omp/main_quadratic_parallel.o 2: 6.735032800000001
+./omp/main_quadratic_parallel.o 4: 5.1088431000000005
+./omp/main_quadratic_parallel.o 8: 5.1616474000000006
+./omp/main_quadratic_parallel.o 16: 4.9122735
+./omp/main_quadratic_nested.o 2: 10.561172299999999
+./omp/main_quadratic_nested.o 4: 7.530897999999999
+./omp/main_quadratic_nested.o 8: 32.5969913
+./omp/main_quadratic_nested.o 16: 20.727163599999997
+Iteration 4480 80 120 40 40:
+./sequential/main_quadratic.o: 12.6281852
+./pthread/main_quadratic.o 2: 6.9967086
+./pthread/main_quadratic.o 4: 5.387323299999999
+./pthread/main_quadratic.o 8: 5.529954399999999
+./pthread/main_quadratic.o 16: 5.3946761
+./omp/main_quadratic_parallel.o 2: 7.319076
+./omp/main_quadratic_parallel.o 4: 5.6738563
+./omp/main_quadratic_parallel.o 8: 5.7093641
+./omp/main_quadratic_parallel.o 16: 5.336083199999999
+./omp/main_quadratic_nested.o 2: 11.358755500000003
+./omp/main_quadratic_nested.o 4: 8.2187679
+./omp/main_quadratic_nested.o 8: 35.725638200000006
+./omp/main_quadratic_nested.o 16: 22.0968241
+Iteration 4480 80 140 40 40:
+./sequential/main_quadratic.o: 13.6294943
+./pthread/main_quadratic.o 2: 7.404368699999999
+./pthread/main_quadratic.o 4: 5.7777364
+./pthread/main_quadratic.o 8: 5.975313899999999
+./pthread/main_quadratic.o 16: 5.7172652
+./omp/main_quadratic_parallel.o 2: 7.714701499999999
+./omp/main_quadratic_parallel.o 4: 6.189068000000001
+./omp/main_quadratic_parallel.o 8: 6.0849214
+./omp/main_quadratic_parallel.o 16: 5.6663955
+./omp/main_quadratic_nested.o 2: 11.880726999999998
+./omp/main_quadratic_nested.o 4: 8.8181797
+./omp/main_quadratic_nested.o 8: 36.3832982
+./omp/main_quadratic_nested.o 16: 23.192799700000002
+Iteration 4480 80 160 40 40:
+./sequential/main_quadratic.o: 13.826166700000002
+./pthread/main_quadratic.o 2: 7.837973299999999
+./pthread/main_quadratic.o 4: 6.060871199999999
+./pthread/main_quadratic.o 8: 6.3172946
+./pthread/main_quadratic.o 16: 5.9741455000000006
+./omp/main_quadratic_parallel.o 2: 8.1102302
+./omp/main_quadratic_parallel.o 4: 6.547446099999999
+./omp/main_quadratic_parallel.o 8: 6.5602793
+./omp/main_quadratic_parallel.o 16: 5.952164499999999
+./omp/main_quadratic_nested.o 2: 12.229446199999998
+./omp/main_quadratic_nested.o 4: 9.1743245
+./omp/main_quadratic_nested.o 8: 38.542179000000004
+./omp/main_quadratic_nested.o 16: 24.0955233
+Iteration 4480 80 180 40 40:
+./sequential/main_quadratic.o: 14.304321100000001
+./pthread/main_quadratic.o 2: 8.0610017
+./pthread/main_quadratic.o 4: 6.4123329
+./pthread/main_quadratic.o 8: 6.374799899999999
+./pthread/main_quadratic.o 16: 6.208790599999999
+./omp/main_quadratic_parallel.o 2: 8.409003900000002
+./omp/main_quadratic_parallel.o 4: 6.880063
+./omp/main_quadratic_parallel.o 8: 6.908464100000001
+./omp/main_quadratic_parallel.o 16: 6.1034876
+./omp/main_quadratic_nested.o 2: 12.6550979
+./omp/main_quadratic_nested.o 4: 9.290989100000001
+./omp/main_quadratic_nested.o 8: 39.248695
+./omp/main_quadratic_nested.o 16: 24.878752800000004
+Iteration 4480 80 200 40 40:
+./sequential/main_quadratic.o: 14.413828499999997
+./pthread/main_quadratic.o 2: 8.4497009
+./pthread/main_quadratic.o 4: 6.41362
+./pthread/main_quadratic.o 8: 6.615655199999999
+./pthread/main_quadratic.o 16: 6.1540248
+./omp/main_quadratic_parallel.o 2: 8.699451300000002
+./omp/main_quadratic_parallel.o 4: 6.972418
+./omp/main_quadratic_parallel.o 8: 7.170331000000002
+./omp/main_quadratic_parallel.o 16: 6.2853674999999996
+./omp/main_quadratic_nested.o 2: 12.7632861
+./omp/main_quadratic_nested.o 4: 9.6187455
+./omp/main_quadratic_nested.o 8: 39.4520193
+./omp/main_quadratic_nested.o 16: 25.020375899999998

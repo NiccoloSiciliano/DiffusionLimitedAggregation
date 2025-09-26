@@ -1,0 +1,360 @@
+Particle 100000 1000 600:
+./sequential/main_linear.o: 2.4828385
+./pthread/main_linear_partial.o 2: 1.7113915
+./pthread/main_linear_partial.o 4: 1.5306664999999997
+./pthread/main_linear_partial.o 8: 1.4684687
+./pthread/main_linear_partial.o 16: 1.6973220000000002
+./pthread/main_linear_partial.o 32: 1.9687943
+./omp/main_linear_partial.o 2: 1.8038031999999997
+./omp/main_linear_partial.o 4: 1.5502869000000001
+./omp/main_linear_partial.o 8: 2.2260148
+./omp/main_linear_partial.o 16: 1.4611855000000002
+./omp/main_linear_partial.o 32: 1.4722465000000002
+Particle 200000 1000 600:
+./sequential/main_linear.o: 4.947796100000001
+./pthread/main_linear_partial.o 2: 3.416448
+./pthread/main_linear_partial.o 4: 2.9417727
+./pthread/main_linear_partial.o 8: 2.8282584
+./pthread/main_linear_partial.o 16: 3.1187746
+./pthread/main_linear_partial.o 32: 3.5834162
+./omp/main_linear_partial.o 2: 3.4631837999999995
+./omp/main_linear_partial.o 4: 2.8998016000000004
+./omp/main_linear_partial.o 8: 3.7775247999999997
+./omp/main_linear_partial.o 16: 2.7063037999999997
+./omp/main_linear_partial.o 32: 2.7293537
+Particle 300000 1000 600:
+./sequential/main_linear.o: 7.5523717
+./pthread/main_linear_partial.o 2: 4.911692799999999
+./pthread/main_linear_partial.o 4: 4.144239100000001
+./pthread/main_linear_partial.o 8: 3.9171094999999996
+./pthread/main_linear_partial.o 16: 4.2925683999999995
+./pthread/main_linear_partial.o 32: 4.8129283
+./omp/main_linear_partial.o 2: 5.0966683999999995
+./omp/main_linear_partial.o 4: 4.2621921
+./omp/main_linear_partial.o 8: 5.3460136
+./omp/main_linear_partial.o 16: 3.7887873
+./omp/main_linear_partial.o 32: 3.847244
+Particle 400000 1000 600:
+./sequential/main_linear.o: 9.7196064
+./pthread/main_linear_partial.o 2: 6.464627100000001
+./pthread/main_linear_partial.o 4: 5.412935399999999
+./pthread/main_linear_partial.o 8: 4.9628994
+./pthread/main_linear_partial.o 16: 5.364117200000001
+./pthread/main_linear_partial.o 32: 5.948723599999999
+./omp/main_linear_partial.o 2: 6.693186900000001
+./omp/main_linear_partial.o 4: 5.6614052
+./omp/main_linear_partial.o 8: 6.927247599999999
+./omp/main_linear_partial.o 16: 4.8175538
+./omp/main_linear_partial.o 32: 4.8858179
+Particle 500000 1000 600:
+./sequential/main_linear.o: 11.694282499999998
+./pthread/main_linear_partial.o 2: 7.9598098
+./pthread/main_linear_partial.o 4: 6.542407
+./pthread/main_linear_partial.o 8: 5.9747288
+./pthread/main_linear_partial.o 16: 6.3965761
+./pthread/main_linear_partial.o 32: 7.079941099999999
+./omp/main_linear_partial.o 2: 8.3225972
+./omp/main_linear_partial.o 4: 6.948421999999999
+./omp/main_linear_partial.o 8: 8.5167575
+./omp/main_linear_partial.o 16: 5.8089323
+./omp/main_linear_partial.o 32: 5.883523800000001
+Particle 600000 1000 600:
+./sequential/main_linear.o: 13.344185
+./pthread/main_linear_partial.o 2: 8.847696899999999
+./pthread/main_linear_partial.o 4: 7.6152123000000005
+./pthread/main_linear_partial.o 8: 6.8025471
+./pthread/main_linear_partial.o 16: 7.162684199999999
+./pthread/main_linear_partial.o 32: 7.794500799999999
+./omp/main_linear_partial.o 2: 9.2007117
+./omp/main_linear_partial.o 4: 8.098998000000002
+./omp/main_linear_partial.o 8: 9.7544341
+./omp/main_linear_partial.o 16: 6.517484400000001
+./omp/main_linear_partial.o 32: 6.5768378
+Particle 700000 1000 600:
+./sequential/main_linear.o: 14.7842251
+./pthread/main_linear_partial.o 2: 9.9443612
+./pthread/main_linear_partial.o 4: 8.5231079
+./pthread/main_linear_partial.o 8: 7.637573399999999
+./pthread/main_linear_partial.o 16: 7.9552713
+./pthread/main_linear_partial.o 32: 8.559666799999999
+./omp/main_linear_partial.o 2: 10.245758700000001
+./omp/main_linear_partial.o 4: 9.0791035
+./omp/main_linear_partial.o 8: 10.9611233
+./omp/main_linear_partial.o 16: 7.270379799999999
+./omp/main_linear_partial.o 32: 7.3021595
+Particle 800000 1000 600:
+./sequential/main_linear.o: 17.190779999999997
+./pthread/main_linear_partial.o 2: 10.9622095
+./pthread/main_linear_partial.o 4: 9.445027800000002
+./pthread/main_linear_partial.o 8: 8.5794782
+./pthread/main_linear_partial.o 16: 8.8721718
+./pthread/main_linear_partial.o 32: 9.494589999999999
+./omp/main_linear_partial.o 2: 11.543940000000001
+./omp/main_linear_partial.o 4: 10.240286200000002
+./omp/main_linear_partial.o 8: 12.422073900000001
+./omp/main_linear_partial.o 16: 8.157212399999999
+./omp/main_linear_partial.o 32: 8.1783489
+Particle 900000 1000 600:
+./sequential/main_linear.o: 18.4358362
+./pthread/main_linear_partial.o 2: 12.272229699999999
+./pthread/main_linear_partial.o 4: 10.4427655
+./pthread/main_linear_partial.o 8: 9.3894818
+./pthread/main_linear_partial.o 16: 9.801919100000001
+./pthread/main_linear_partial.o 32: 10.433046999999998
+./omp/main_linear_partial.o 2: 12.554169399999997
+./omp/main_linear_partial.o 4: 11.2538199
+./omp/main_linear_partial.o 8: 13.607529600000001
+./omp/main_linear_partial.o 16: 8.9982664
+./omp/main_linear_partial.o 32: 9.051260300000001
+Particle 1000000 1000 600:
+./sequential/main_linear.o: 19.879439199999997
+./pthread/main_linear_partial.o 2: 13.400552199999998
+./pthread/main_linear_partial.o 4: 11.2471242
+./pthread/main_linear_partial.o 8: 10.113538199999999
+./pthread/main_linear_partial.o 16: 10.6225079
+./pthread/main_linear_partial.o 32: 11.3215697
+./omp/main_linear_partial.o 2: 13.728180499999999
+./omp/main_linear_partial.o 4: 12.1209872
+./omp/main_linear_partial.o 8: 14.4916711
+./omp/main_linear_partial.o 16: 9.863882499999999
+./omp/main_linear_partial.o 32: 9.8863355
+Grid 28000 200 600 100 100:
+./sequential/main_linear.o: 0.2667011
+./pthread/main_linear_partial.o 2: 0.20213489999999998
+./pthread/main_linear_partial.o 4: 0.1967623
+./pthread/main_linear_partial.o 8: 0.17717960000000002
+./pthread/main_linear_partial.o 16: 0.22805400000000003
+./pthread/main_linear_partial.o 32: 0.25640699999999994
+./omp/main_linear_partial.o 2: 0.2056115
+./omp/main_linear_partial.o 4: 0.17728919999999998
+./omp/main_linear_partial.o 8: 0.20420789999999997
+./omp/main_linear_partial.o 16: 0.1847558
+./omp/main_linear_partial.o 32: 0.20330750000000003
+Grid 112000 400 600 200 200:
+./sequential/main_linear.o: 1.6369544999999999
+./pthread/main_linear_partial.o 2: 1.1014403
+./pthread/main_linear_partial.o 4: 1.0273993000000001
+./pthread/main_linear_partial.o 8: 0.9744121
+./pthread/main_linear_partial.o 16: 1.0430673000000001
+./pthread/main_linear_partial.o 32: 1.0691919999999997
+./omp/main_linear_partial.o 2: 1.1337489
+./omp/main_linear_partial.o 4: 1.0099584
+./omp/main_linear_partial.o 8: 1.3112489
+./omp/main_linear_partial.o 16: 0.9462520000000001
+./omp/main_linear_partial.o 32: 0.9604710000000001
+Grid 252000 600 600 300 300:
+./sequential/main_linear.o: 4.666374899999999
+./pthread/main_linear_partial.o 2: 3.0667376
+./pthread/main_linear_partial.o 4: 2.7805378000000003
+./pthread/main_linear_partial.o 8: 2.5523571
+./pthread/main_linear_partial.o 16: 2.7136185
+./pthread/main_linear_partial.o 32: 3.0220263999999997
+./omp/main_linear_partial.o 2: 3.1694712999999997
+./omp/main_linear_partial.o 4: 2.87722
+./omp/main_linear_partial.o 8: 3.4548204
+./omp/main_linear_partial.o 16: 2.3870248999999997
+./omp/main_linear_partial.o 32: 2.3832911
+Grid 448000 800 600 400 400:
+./sequential/main_linear.o: 9.0126014
+./pthread/main_linear_partial.o 2: 6.0234303
+./pthread/main_linear_partial.o 4: 5.164694399999999
+./pthread/main_linear_partial.o 8: 4.7008835
+./pthread/main_linear_partial.o 16: 4.9572954000000005
+./pthread/main_linear_partial.o 32: 5.354318
+./omp/main_linear_partial.o 2: 6.2005017
+./omp/main_linear_partial.o 4: 5.526956
+./omp/main_linear_partial.o 8: 6.661122799999999
+./omp/main_linear_partial.o 16: 4.4738604
+./omp/main_linear_partial.o 32: 4.476662
+Grid 700000 1000 600 500 500:
+./sequential/main_linear.o: 15.134071999999998
+./pthread/main_linear_partial.o 2: 9.815071200000002
+./pthread/main_linear_partial.o 4: 8.4244566
+./pthread/main_linear_partial.o 8: 7.6167277
+./pthread/main_linear_partial.o 16: 7.948327399999999
+./pthread/main_linear_partial.o 32: 8.5506153
+./omp/main_linear_partial.o 2: 10.244781900000001
+./omp/main_linear_partial.o 4: 9.079157899999998
+./omp/main_linear_partial.o 8: 10.958639499999999
+./omp/main_linear_partial.o 16: 7.268084999999999
+./omp/main_linear_partial.o 32: 7.293932199999999
+Grid 1008000 1200 600 600 600:
+./sequential/main_linear.o: 22.506221
+./pthread/main_linear_partial.o 2: 14.558807299999998
+./pthread/main_linear_partial.o 4: 12.443711400000002
+./pthread/main_linear_partial.o 8: 11.251343499999999
+./pthread/main_linear_partial.o 16: 11.6659735
+./pthread/main_linear_partial.o 32: 12.465654999999998
+./omp/main_linear_partial.o 2: 15.4180667
+./omp/main_linear_partial.o 4: 13.346471200000002
+./omp/main_linear_partial.o 8: 15.590594300000001
+./omp/main_linear_partial.o 16: 10.768408999999998
+./omp/main_linear_partial.o 32: 10.842989199999998
+Grid 1372000 1400 600 700 700:
+./sequential/main_linear.o: 30.927177699999998
+./pthread/main_linear_partial.o 2: 20.3918794
+./pthread/main_linear_partial.o 4: 17.1103381
+./pthread/main_linear_partial.o 8: 15.7091284
+./pthread/main_linear_partial.o 16: 16.166632599999996
+./pthread/main_linear_partial.o 32: 17.135185100000005
+./omp/main_linear_partial.o 2: 21.4380495
+./omp/main_linear_partial.o 4: 18.473697100000003
+./omp/main_linear_partial.o 8: 20.020584600000003
+./omp/main_linear_partial.o 16: 15.095500900000001
+./omp/main_linear_partial.o 32: 15.182540300000003
+Grid 1792000 1600 600 800 800:
+./sequential/main_linear.o: 41.743809399999996
+./pthread/main_linear_partial.o 2: 27.255036699999998
+./pthread/main_linear_partial.o 4: 22.4242309
+./pthread/main_linear_partial.o 8: 20.8278479
+./pthread/main_linear_partial.o 16: 21.347229500000005
+./pthread/main_linear_partial.o 32: 22.595460600000003
+./omp/main_linear_partial.o 2: 28.0194911
+./omp/main_linear_partial.o 4: 24.098358100000002
+./omp/main_linear_partial.o 8: 25.3488379
+./omp/main_linear_partial.o 16: 20.2590244
+./omp/main_linear_partial.o 32: 20.398737699999998
+Grid 2268000 1800 600 900 900:
+./sequential/main_linear.o: 52.300759500000005
+./pthread/main_linear_partial.o 2: 34.930538600000006
+./pthread/main_linear_partial.o 4: 28.4632104
+./pthread/main_linear_partial.o 8: 26.5378557
+./pthread/main_linear_partial.o 16: 27.2387454
+./pthread/main_linear_partial.o 32: 28.594355499999995
+./omp/main_linear_partial.o 2: 36.309216899999996
+./omp/main_linear_partial.o 4: 30.5467516
+./omp/main_linear_partial.o 8: 31.4384032
+./omp/main_linear_partial.o 16: 25.9630407
+./omp/main_linear_partial.o 32: 26.081944100000005
+Grid 2800000 2000 600 1000 1000:
+./sequential/main_linear.o: 64.14147039999999
+./pthread/main_linear_partial.o 2: 43.2891507
+./pthread/main_linear_partial.o 4: 35.9835727
+./pthread/main_linear_partial.o 8: 33.0755469
+./pthread/main_linear_partial.o 16: 33.8171267
+./pthread/main_linear_partial.o 32: 35.3630954
+./omp/main_linear_partial.o 2: 44.202689400000004
+./omp/main_linear_partial.o 4: 37.473493000000005
+./omp/main_linear_partial.o 8: 37.76631390000001
+./omp/main_linear_partial.o 16: 32.363899100000005
+./omp/main_linear_partial.o 32: 32.40818660000001
+Iteration 700000 1000 200 500 500:
+./sequential/main_linear.o: 5.0204977
+./pthread/main_linear_partial.o 2: 3.2493356999999996
+./pthread/main_linear_partial.o 4: 2.6904068
+./pthread/main_linear_partial.o 8: 2.4204657000000003
+./pthread/main_linear_partial.o 16: 2.6959881999999995
+./pthread/main_linear_partial.o 32: 2.9543504
+./omp/main_linear_partial.o 2: 3.5427711000000004
+./omp/main_linear_partial.o 4: 3.0956883
+./omp/main_linear_partial.o 8: 3.7791297999999998
+./omp/main_linear_partial.o 16: 2.4958665
+./omp/main_linear_partial.o 32: 2.5186975000000005
+Iteration 700000 1000 400 500 500:
+./sequential/main_linear.o: 10.0345333
+./pthread/main_linear_partial.o 2: 6.5630949
+./pthread/main_linear_partial.o 4: 5.7853281
+./pthread/main_linear_partial.o 8: 5.1527902
+./pthread/main_linear_partial.o 16: 5.3892257
+./pthread/main_linear_partial.o 32: 5.798220399999999
+./omp/main_linear_partial.o 2: 6.9561594000000015
+./omp/main_linear_partial.o 4: 6.1275806
+./omp/main_linear_partial.o 8: 7.4259604999999995
+./omp/main_linear_partial.o 16: 4.9099945
+./omp/main_linear_partial.o 32: 4.953685699999999
+Iteration 700000 1000 600 500 500:
+./sequential/main_linear.o: 14.639656100000002
+./pthread/main_linear_partial.o 2: 9.702948200000002
+./pthread/main_linear_partial.o 4: 8.424951700000001
+./pthread/main_linear_partial.o 8: 7.551925599999999
+./pthread/main_linear_partial.o 16: 7.8533141
+./pthread/main_linear_partial.o 32: 8.4267109
+./omp/main_linear_partial.o 2: 10.108018300000001
+./omp/main_linear_partial.o 4: 8.939107700000003
+./omp/main_linear_partial.o 8: 10.7755032
+./omp/main_linear_partial.o 16: 7.159282
+./omp/main_linear_partial.o 32: 7.183880199999999
+Iteration 700000 1000 800 500 500:
+./sequential/main_linear.o: 18.219181
+./pthread/main_linear_partial.o 2: 12.3634613
+./pthread/main_linear_partial.o 4: 10.8141278
+./pthread/main_linear_partial.o 8: 9.705598999999998
+./pthread/main_linear_partial.o 16: 10.090081300000001
+./pthread/main_linear_partial.o 32: 11.9470875
+./omp/main_linear_partial.o 2: 13.6345156
+./omp/main_linear_partial.o 4: 11.762021200000001
+./omp/main_linear_partial.o 8: 13.7700056
+./omp/main_linear_partial.o 16: 9.1626449
+./omp/main_linear_partial.o 32: 9.154013099999998
+Iteration 700000 1000 1000 500 500:
+./sequential/main_linear.o: 21.256167299999994
+./pthread/main_linear_partial.o 2: 14.488542900000002
+./pthread/main_linear_partial.o 4: 12.9216217
+./pthread/main_linear_partial.o 8: 11.6112535
+./pthread/main_linear_partial.o 16: 11.9740622
+./pthread/main_linear_partial.o 32: 12.853853599999999
+./omp/main_linear_partial.o 2: 15.014488700000001
+./omp/main_linear_partial.o 4: 13.777697
+./omp/main_linear_partial.o 8: 16.4384661
+./omp/main_linear_partial.o 16: 10.9171083
+./omp/main_linear_partial.o 32: 10.8919151
+Iteration 700000 1000 1200 500 500:
+./sequential/main_linear.o: 24.082167400000003
+./pthread/main_linear_partial.o 2: 16.4385642
+./pthread/main_linear_partial.o 4: 14.525111599999999
+./pthread/main_linear_partial.o 8: 13.227031499999999
+./pthread/main_linear_partial.o 16: 13.599504
+./pthread/main_linear_partial.o 32: 14.579971899999999
+./omp/main_linear_partial.o 2: 16.927503499999997
+./omp/main_linear_partial.o 4: 15.7142414
+./omp/main_linear_partial.o 8: 18.697053599999997
+./omp/main_linear_partial.o 16: 12.3402919
+./omp/main_linear_partial.o 32: 12.293036099999998
+Iteration 700000 1000 1400 500 500:
+./sequential/main_linear.o: 26.228052
+./pthread/main_linear_partial.o 2: 17.8362817
+./pthread/main_linear_partial.o 4: 16.1020163
+./pthread/main_linear_partial.o 8: 14.8355369
+./pthread/main_linear_partial.o 16: 14.959621299999998
+./pthread/main_linear_partial.o 32: 16.01397
+./omp/main_linear_partial.o 2: 18.6627817
+./omp/main_linear_partial.o 4: 17.400148199999997
+./omp/main_linear_partial.o 8: 20.653603500000003
+./omp/main_linear_partial.o 16: 13.541703899999998
+./omp/main_linear_partial.o 32: 13.468649200000002
+Iteration 700000 1000 1600 500 500:
+./sequential/main_linear.o: 28.419186200000002
+./pthread/main_linear_partial.o 2: 19.418891800000004
+./pthread/main_linear_partial.o 4: 17.4852135
+./pthread/main_linear_partial.o 8: 16.007654599999995
+./pthread/main_linear_partial.o 16: 16.1720588
+./pthread/main_linear_partial.o 32: 17.318475400000004
+./omp/main_linear_partial.o 2: 19.981523900000003
+./omp/main_linear_partial.o 4: 18.9232415
+./omp/main_linear_partial.o 8: 22.4630803
+./omp/main_linear_partial.o 16: 14.6079317
+./omp/main_linear_partial.o 32: 14.5067028
+Iteration 700000 1000 1800 500 500:
+./sequential/main_linear.o: 29.8418183
+./pthread/main_linear_partial.o 2: 20.5951798
+./pthread/main_linear_partial.o 4: 18.661901699999998
+./pthread/main_linear_partial.o 8: 17.3977326
+./pthread/main_linear_partial.o 16: 17.3123507
+./pthread/main_linear_partial.o 32: 18.529638700000003
+./omp/main_linear_partial.o 2: 21.4467113
+./omp/main_linear_partial.o 4: 20.301617200000003
+./omp/main_linear_partial.o 8: 24.118295600000003
+./omp/main_linear_partial.o 16: 15.608101199999998
+./omp/main_linear_partial.o 32: 15.461721299999999
+Iteration 700000 1000 2000 500 500:
+./sequential/main_linear.o: 31.3066423
+./pthread/main_linear_partial.o 2: 21.815657599999998
+./pthread/main_linear_partial.o 4: 19.8142049
+./pthread/main_linear_partial.o 8: 18.431718300000004
+./pthread/main_linear_partial.o 16: 18.408452599999997
+./pthread/main_linear_partial.o 32: 19.631622900000004
+./omp/main_linear_partial.o 2: 22.5683309
+./omp/main_linear_partial.o 4: 21.588206
+./omp/main_linear_partial.o 8: 25.6333463
+./omp/main_linear_partial.o 16: 16.5460966
+./omp/main_linear_partial.o 32: 16.3547723
