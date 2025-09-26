@@ -1,0 +1,106 @@
+# Diffusion Limited Aggregation (DLA) Simulation with Multicore Programming
+
+## Overview
+This project implements a **simulation of Diffusion Limited Aggregation (DLA)** using **multicore programming**.  
+The simulation models how particles move randomly in a discrete grid until they touch another particle or a cluster, at which point they **freeze** and contribute to the growth of the aggregate.  
+
+The main focus of this project is to explore **parallel implementations** of the DLA algorithm using **POSIX threads (pthreads)** and **OpenMP** to achieve better performance on multicore architectures.
+
+---
+
+## Model Description
+- **Discrete space**:  
+  The environment is represented as a 2D grid of cells. Each particle occupies exactly one cell.  
+
+- **Particle movement**:  
+  At each iteration, a particle randomly moves to one of the neighboring cells (random walk).  
+
+- **Freezing rule**:  
+  When a moving particle comes into contact with a crystallized particle (part of the cluster), it **freezes** and becomes part of the aggregate.  
+
+- **Growth pattern**:  
+  Over time, the frozen particles form fractal-like aggregates, characteristic of DLA processes.  
+
+---
+
+## Algorithms
+
+### Quadratic Algorithm
+- **Spawn phase**: Particles are distributed randomly across the grid.  
+- **Control phase**: Each particle checks for collisions with **all other particles**.  
+- **Movement phase**: If no collision occurs, the particle is assigned a new random position.  
+- **Complexity**: `O(n²)` checks for `n` particles.  
+
+### Linear Algorithm
+- Uses a **grid of counters** instead of direct particle-to-particle checks.  
+- Each cell tracks:
+  - Number of particles inside  
+  - Whether it contains a crystal (negative counter)  
+- Collisions are checked by verifying cell counters rather than scanning all particles.  
+- **Complexity**: reduced from quadratic to nearly linear with respect to particle count.  
+
+---
+
+## Parallelization
+
+The project applies **Foster’s methodology** to parallelize the simulation:
+- **Partitioning**: The problem is divided into four phases:
+  1. Spawn  
+  2. Control  
+  3. Generation of new position  
+  4. Movement  
+- **Mapping**: Each thread manages `n/t` particles (`n` = number of particles, `t` = number of threads).  
+- **Synchronization**: Required between critical phases (e.g., control and movement).  
+- **Execution model**: Single Program Multiple Data (SPMD).
+
+### Pthreads Implementation
+- Each thread is initialized with a structure containing:  
+  - Number of particles it controls  
+  - Index range of assigned particles  
+  - Shared data (positions, parameters, etc.)  
+- Synchronization primitives ensure correct updates across threads.
+
+### OpenMP Implementation
+- Loops over particles are parallelized using `#pragma omp parallel for`.  
+- Scheduling strategies:
+  - **Static** for spawn phase  
+  - **Guided** for control and movement phases  
+
+---
+
+## Experimental Results
+
+- **Quadratic Algorithm**  
+  - Maximum speedup ≈ **2.8×** with 4 threads (Pthreads and OpenMP).  
+  - Efficiency decreases as thread count increases due to overhead.  
+
+- **Linear Algorithm (Partially Parallel)**  
+  - Maximum speedup ≈ **2.1×** with 16 threads (OpenMP).  
+  - Pthreads reached ≈ **2.0×** speedup with 8 threads.  
+
+- **Linear Algorithm (Fully Parallel)**  
+  - Performed worse than the partially parallel version due to higher overhead.  
+  - Maximum speedup ≈ **1.6×** (OpenMP) and ≈ **1.3×** (Pthreads).  
+
+---
+
+## Key Features
+- Simulation of **DLA fractal growth**.  
+- Two algorithmic strategies:
+  - **Quadratic (naïve)**  
+  - **Linear (optimized with grid counters)**  
+- **Multicore parallelization** using:
+  - **Pthreads**  
+  - **OpenMP**  
+- Performance evaluation with speedup and efficiency analysis.  
+
+---
+
+## Potential Extensions
+- Visualization of crystal growth in real time.  
+- GPU-based acceleration with CUDA or OpenCL.  
+- Dynamic load balancing between threads.  
+- Experimentation with 3D DLA models.  
+
+---
+
